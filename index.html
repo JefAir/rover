@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+  
+    <title>Rover Emulation</title>
+</head>
+<body>
+<section>
+	<div class="box_counter">0</div>
+	<input type="range" min="0" max="100" step="1" value="50" id="destination" oninput="box_counter_step()"> 
+	<div class="box_rover_position">Rover in <span>STOP</span></div>
+	<div class="button">On</div>
+</section>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
